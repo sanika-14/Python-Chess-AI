@@ -1,4 +1,10 @@
-Here’s the updated README to reflect the option of playing either against another player or the AI:
+To include the provided images in your GitHub README file, you can first upload the images to your repository and then reference them within the README. Here’s how you can modify the README to include the images:
+
+### Steps:
+1. Upload the images (for the game mode screen and the chessboard) to your GitHub repository. You can create a folder called `assets` to store images, for example: `assets/game_mode.png` and `assets/chess_board.png`.
+2. Use Markdown to include the images in the README.
+
+Here’s how the updated README file would look:
 
 ---
 
@@ -11,6 +17,7 @@ Welcome to **Python-Chess-AI**, a project aimed at developing a chess-playing pl
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 
 ## Project Overview
@@ -59,12 +66,14 @@ This project offers two modes: **Player vs Player** and **Player vs AI**. In AI 
    - **Player vs AI**: The AI will make moves using Stockfish after each player's turn.
 3. Make your moves by clicking on the pieces and selecting the destination squares.
 
+## Screenshots
+### 1. Game Mode Selection
+![Game Mode Selection](output/Game_mode.png)
+
+### 2. Chessboard Display
+![Chessboard Display](output/Chessboard.png)
+
 ## Technologies Used
 - **Python**: The core programming language for this project.
 - **Pygame**: For implementing the graphical user interface (GUI).
 - **Stockfish**: The chess engine used for AI move generation and board evaluation.
-
-
-
----
-
